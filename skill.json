@@ -1,12 +1,12 @@
 {
-  "name": "glance-cross-surface-frictionless-checkout-auditor-skill",
+  "name": "genpark-cross-surface-frictionless-checkout-auditor-skill",
   "version": "1.0.0",
-  "description": "Glance Cross-Surface Frictionless Checkout Auditor - Audits and optimizes the zero-hop conversion journey across Screen Zero lock screens, smart TVs, and instant checkout.",
+  "description": "GenPark Cross-Surface Frictionless Checkout Auditor - Audits and optimizes the zero-hop conversion journey across Screen Zero lock screens, smart TVs, and instant checkout.",
   "category": "Service",
   "mcp_entry": "mcp_server.py",
   "python_version": ">=3.9",
   "tags": [
-    "glance",
+    "genpark",
     "cross-surface",
     "multi-touch-attribution",
     "checkout-optimization",
