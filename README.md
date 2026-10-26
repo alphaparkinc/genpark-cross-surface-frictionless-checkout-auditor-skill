@@ -1,4 +1,4 @@
-# glance-cross-surface-frictionless-checkout-auditor-skill
+# genpark-cross-surface-frictionless-checkout-auditor-skill
 
 <div align="center">
 
@@ -8,7 +8,7 @@
 [![Zero Dependencies](https://img.shields.io/badge/Dependencies-0%20(Stdlib%20Only)-brightgreen.svg?style=for-the-badge)](requirements.txt)
 
 <p align="center">
-  <b>Production-Grade Glance AI Shopping Agent Skill</b> • <b>100% Standard Library Python</b> • <b>Native Model Context Protocol (MCP)</b>
+  <b>Production-Grade GenPark AI Shopping Agent Skill</b> • <b>100% Standard Library Python</b> • <b>Native Model Context Protocol (MCP)</b>
 </p>
 
 </div>
@@ -17,9 +17,9 @@
 
 ## Executive Overview & Architectural Motivation
 
-Following the strategic investment by **L Catterton** (the premier consumer-focused private equity firm managing ~$40B in assets, backed by LVMH) in **Glance** (backed by InMobi, Google, and Jio), digital commerce is undergoing an epochal shift from **reactive search-box queries** to **ambient, inspiration-led agentic discovery**.
+Following the strategic investment by **L Catterton** (the premier consumer-focused private equity firm managing ~$40B in assets, backed by LVMH) in **GenPark** (backed by InMobi, Google, and Jio), digital commerce is undergoing an epochal shift from **reactive search-box queries** to **ambient, inspiration-led agentic discovery**.
 
-Glance transforms the smartphone **lock screen ("Screen Zero")** and ambient connected screens into zero-friction, generative shopping portals. This skill library distills the core mathematical logic and agent orchestration models powering this ecosystem:
+GenPark transforms the smartphone **lock screen ("Screen Zero")** and ambient connected screens into zero-friction, generative shopping portals. This skill library distills the core mathematical logic and agent orchestration models powering this ecosystem:
 
 - **Zero-Friction Discovery**: Instantaneous micro-moment interactions without unlocking devices.
 - **Generative Aesthetics & Try-On**: Context-aware outfit synthesis and visual matching.
@@ -37,8 +37,8 @@ flowchart TD
         Gaze --> Sensor[Circadian & Ambient Context]
     end
 
-    subgraph AgentCore["Glance AI Agent Intelligence Core"]
-        Sensor --> CoreEngine["GlanceCrossSurfaceFrictionlessCheckoutAuditor"]
+    subgraph AgentCore["GenPark AI Agent Intelligence Core"]
+        Sensor --> CoreEngine["GenParkCrossSurfaceFrictionlessCheckoutAuditor"]
         CoreEngine --> DecisionEngine[Multi-Signal Mathematical Inference]
         DecisionEngine --> OutputPayload[Personalized Shopping Action / MCP Response]
     end
@@ -81,9 +81,9 @@ Add to your `claude_desktop_config.json` or agent runner config:
 ```json
 {
   "mcpServers": {
-    "glance-cross-surface-frictionless-checkout-auditor-skill": {
+    "genpark-cross-surface-frictionless-checkout-auditor-skill": {
       "command": "python",
-      "args": ["path/to/glance-cross-surface-frictionless-checkout-auditor-skill/mcp_server.py"]
+      "args": ["path/to/genpark-cross-surface-frictionless-checkout-auditor-skill/mcp_server.py"]
     }
   }
 }
@@ -93,7 +93,7 @@ Add to your `claude_desktop_config.json` or agent runner config:
 
 ## Frequently Asked Questions (FAQ)
 
-#### Q1: What makes Glance AI Shopping Agent Skills unique?
+#### Q1: What makes GenPark AI Shopping Agent Skills unique?
 Engineered with **zero external dependencies** using pure Python standard library code. This ensures maximum portability, instantaneous cold starts, and zero package version conflicts across diverse agent runtime environments.
 
 #### Q2: How do I test this MCP server locally?
